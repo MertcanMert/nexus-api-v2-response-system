@@ -1,0 +1,55 @@
+{
+  "HELLO": "Merhaba!",
+  "SUCCESS": {
+    "CREATED": "Kayıt başarıyla oluşturuldu.",
+    "UPDATED": "Kayıt başarıyla güncellendi.",
+    "DELETED": "Kayıt başarıyla silindi.",
+    "RESTORED": "Kayıt başarıyla geri yüklendi.",
+    "LOGIN": "Giriş başarılı.",
+    "LOGOUT": "Çıkış başarılı.",
+    "TOKEN_REFRESHED": "Token başarıyla yenilendi."
+  },
+  "ERROR": {
+    "NOT_FOUND": "Aradığınız kayıt bulunamadı.",
+    "INTERNAL_SERVER_ERROR": "Sunucuda beklenmedik bir hata oluştu.",
+    "EXIST_VALUE": "{name} zaten mevcut!",
+    "BAD_REQUEST": "Geçersiz istek.",
+    "UNAUTHORIZED": "Bu işlemi gerçekleştirmek için yetkiniz yok.",
+    "FORBIDDEN": "Erişim engellendi.",
+    "CONFLICT": "Mevcut durumla bir çakışma oluştu.",
+    "UPDATE_FAILED": "Güncelleme işlemi başarısız oldu.",
+    "DELETE_FAILED": "Silme işlemi başarısız oldu."
+  },
+  "AUTH": {
+    "INVALID_CREDENTIALS": "Geçersiz e-posta veya şifre.",
+    "INVALID_TOKEN": "Geçersiz veya süresi dolmuş token. Lütfen tekrar giriş yapın.",
+    "TOKEN_MISSING": "Kimlik doğrulama tokeni eksik.",
+    "TOKEN_EXPIRED": "Oturumunuz sona erdi. Lütfen tekrar giriş yapın.",
+    "TOKEN_MISMATCH": "Token doğrulama başarısız.",
+    "ACCESS_DENIED": "Erişim engellendi.",
+    "USER_NOT_FOUND": "Kullanıcı bulunamadı.",
+    "REFRESH_FAILED": "Token yenileme başarısız oldu.",
+    "INVALID_AUTHORIZATION": "Bu kaynağa erişim yetkiniz yok."
+  },
+  "VALIDATION": {
+    "INVALID_EMAIL": "Lütfen geçerli bir e-posta adresi giriniz.",
+    "NOT_EMPTY": "{field} alanı boş bırakılamaz!",
+    "INVALID_PASSWORD": "Şifre en az 8 karakter olmalı ve en az bir büyük harf, bir rakam ve bir özel karakter içermelidir.",
+    "MIN_LENGTH": "{field} en az {min} karakter olmalıdır.",
+    "MAX_LENGTH": "{field} en fazla {max} karakter olabilir.",
+    "INVALID_UUID": "Geçersiz ID formatı.",
+    "FIELD_REQUIRED": "{field} zorunludur.",
+    "AT_LEAST_ONE_FIELD": "Güncelleme için en az bir alan sağlanmalıdır."
+  },
+  "USER": {
+    "CREATED": "Kullanıcı başarıyla kaydedildi.",
+    "UPDATED": "Kullanıcı profili başarıyla güncellendi.",
+    "DELETED": "Kullanıcı başarıyla silindi.",
+    "RESTORED": "Kullanıcı hesabı başarıyla geri yüklendi.",
+    "NOT_FOUND": "Kullanıcı bulunamadı.",
+    "ALREADY_EXISTS": "Bu e-posta adresine sahip bir kullanıcı zaten mevcut.",
+    "ALREADY_ACTIVE": "Bu kullanıcı hesabı zaten aktif.",
+    "REFRESH_TOKEN_UPDATED": "Yenileme tokeni başarıyla güncellendi.",
+    "REFRESH_TOKEN_UPDATE_FAILED": "Yenileme tokeni güncellenemedi."
+  }
+}
