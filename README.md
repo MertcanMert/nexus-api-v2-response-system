@@ -16,6 +16,42 @@ NexuS API V2 (Response System) is a high-performance, security-focused backend s
 
 ---
 
+📦 NPM Package (Recommended Usage)
+
+This repository is also distributed as an official NPM package and is intended to be consumed directly inside existing NestJS applications.
+
+Package Name
+```text
+nexus-api-v2-response-system
+```
+Installation
+```text
+npm install nexus-api-v2-response-system
+```
+## 📦 Why NPM Instead of Copy-Paste?
+
+### Problems with Copy-Paste Approach
+
+| Problem                     | Result                   |
+|-----------------------------|--------------------------|
+| Copy-paste interceptors     | Configuration drift      |
+| Inconsistent error formats  | Frontend instability     |
+| Manual logging logic        | Observability gaps       |
+
+### What the NPM Package Guarantees
+
+| Guarantee                     | Description                                   |
+|------------------------------|-----------------------------------------------|
+| Single source of truth       | Centralized, authoritative implementation     |
+| Semantic versioning          | Predictable and controlled updates            |
+| Safe upgrades                | Backward-compatible improvements              |
+| Consistent API contracts     | Stable response & error schemas across apps   |
+
+> **Repository purpose:** Reference implementation and development source.  
+> **Production usage:** Always prefer the published **NPM package**.
+
+---
+
 ## 💎 The Evolution: From V1 to V2
 While [NexusAPI V1](https://github.com/MertcanMert/nexus-api) set the standard for modular NestJS architecture, multi-tenancy, and security foundation, **V2 Response System** deepens the developer experience by solving the "Silent Failure" and "Data Inconsistency" problems. 
 
